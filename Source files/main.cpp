@@ -426,6 +426,7 @@ void movePiece(void)
       return;
    }
 
+
    Chess::Position present;
    present.iColumn = move_from[0];
    present.iRow    = move_from[1];
@@ -803,7 +804,7 @@ int main()
 {
    bool bRun = true;
 
-   // Clear screen an print the logo
+   // Clear screen and print the logo
    clearScreen();
    printLogo();
 
